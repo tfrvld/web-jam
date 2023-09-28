@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Jam</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="container">
+      <div class="tombol kanan sel" onclick="gantiContainer('kanan')"> > </div>
+      <div class="container-waktu">
+         <p class="waktu sel"></p>
+      </div>
+      <div class="container-timer none">
+         <div class="timer sel">00:00:00</div>
+         <div class="inputTime">
+            <input class="inpt" type="number" name="jam" id="jam" min="0" max="24" value="J" placeholder="hr">
+            <input class="inpt" type="number" name="menit" id="menit" min="0" max="59" value="M" placeholder="min">
+            <input class="inpt" type="number" name="detik" id="detik" min="0" max="59" value="D" placeholder="sec">
+            <!-- <input type="text" name="detik" id="detik" max="60" min="0"> -->
+         </div>
+         <div class="btn">
+            <button class="btnn start">
+               <p>START</p>
+            </button>
+            <button class="btnn stop">
+               <p>STOP</p>
+            </button>
+            <button class="btnn reset">
+               <p>RESET</p>
+            </button>
+         </div>
+      </div>
+      <div class="container-stopwatch none">
+         <div class="stw sel">00:00:00</div>
+         <div class="tmbl">
+            <button class="btnn startStw">START</button>
+            <button class="btnn stopStw">STOP</button>
+            <button class="btnn resetStw">RESET</button>
+         </div>
+      </div>
+      <div class="tombol kiri sel" onclick="gantiContainer('kiri')">
+         < </div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+
+</html>
