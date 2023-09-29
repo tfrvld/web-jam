@@ -50,7 +50,7 @@ body {
 
 .timer,
 .stw {
-   margin-top: 25vmin;
+   margin-top: 14vmin;
 }
 
 .tombol {
@@ -107,9 +107,15 @@ body {
 }
 
 .waktu {
-   margin-top: 28vmin;
+   margin-top: 15vmin;
 }
 
 .sel {
    user-select: none;
+}
+
+.head {
+   font-size: 5vmax;
+   color: whitesmoke;
+   padding-bottom: 0;
 }
