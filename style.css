@@ -5,6 +5,14 @@
    font-style: normal;
 }
 
+@font-face {
+   font-family: 'vigaregular';
+   src: url('viga-regular-webfont.woff2') format('woff2'),
+      url('viga-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
 body {
    margin: 0;
    padding: 0;
@@ -118,4 +126,8 @@ body {
    font-size: 5vmax;
    color: whitesmoke;
    padding-bottom: 0;
+}
+
+.head {
+   font-family: 'vigaregular';
 }
